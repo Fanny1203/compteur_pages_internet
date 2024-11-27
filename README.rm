@@ -1,0 +1,10 @@
+# compteur_pages_internet
+
+Dans une page dont on veut suivre le nombre de visites, on met le code:
+<img src=".../compteur_sem/compteur.php?provenance=page_formation_continue" alt="" style="display:none;">
+
+Le paramètre "provenance" de l'url permet de suivre plusieurs pages
+
+Sur un site personnel autre, on a la page "compteur.php" qui renvoie une image vide et ajoute une ligne dans un fichier csv avec la provenance, la date et l'heure.
+
+la page affiche_compteur.php affiche le contenu de ce fichier csv et permet quelques gestes administratifs (réinitialiser, télécharger le fichier csv)
